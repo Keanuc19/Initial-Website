@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="css/contactStyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+              <div class="logo">
+                <!-- add an image here in the place of a Logo-->
+                <img src="images/ju-logo-nameplate-green.png">
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="products.html">Shop</a></li>
+                  <li><a href="creator.html">Creator</a></li>
+                  <li><a id = "doubleLink"href="Contact.html">Contact</a></li>
+                  <li><a href="news.html">News</a></li>
+                </ul>
+              </nav>
+              <div class="user">
+                <p> Keanu Chetty</p>
+                <!--Add an Image of myself-->
+                <img src="images/circle-cropped.png">
+              </div>
+            </div>
+        <div class="contactHeading">
+            <h1>Hey! How Are You?</h1>
+            <h2>Feel Free to Contact Us With Any Product Suggestions Or Just To Say Hi!</h2>
+        </div>
+
+        <div class="Form">
+          <!--Don't have a PHP file to use as the action method for the "POST"-->
+          <!--Post is more secure and will protect the users data better-->
+            <form id="contactProcessing" method="POST" action="">
+            <input name="name" type="text" class="formInfo" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="text" class="formInfo" placeholder="Your Email" required>
+            <br>
+
+                <textarea name="messageContent" class="formInfo" placeholder="Please Type Your Message Or Product Suggestion Here!" rows="4" required></textarea>
+                <br>
+
+                <input type="submit" class="formInfo Submit" value="SEND MESSAGE">
+            </form>
+        </div>
+
+
+    </body>
+    
+
+
+
+</html>

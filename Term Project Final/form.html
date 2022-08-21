@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Review Form</title>
+        <link rel="stylesheet" href="css/formStyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+              <div class="logo">
+                <!-- add an image here in the place of a Logo-->
+                <img src="images/ju-logo-nameplate-green.png">
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="products.html">Shop</a></li>
+                  <li><a href="creator.html">Creator</a></li>
+                  <li><a id = "doubleLink"href="Contact.html">Contact</a></li>
+                  <li><a href="news.html">News</a></li>
+                </ul>
+              </nav>
+              <div class="user">
+                <p> Keanu Chetty</p>
+                <!--Add an Image of myself-->
+                <img src="images/circle-cropped.png">
+              </div>
+            </div>
+        <div class="contactHeading">
+            <h1>Please Rate Your User Experience On Our Webpage</h1>
+            <h2>We Appreciate any feedback that we can get in order to create a harmonized user experience.</h2>
+        </div>
+
+        <div class="Form">
+            <!--Didn't have a PHP file to call to for the action-->
+            <form id="contactProcessing" method="POST" action="">
+            <input name="name" type="text" class="formInfo" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="text" class="formInfo" placeholder="Your Email" required>
+            <br>
+            <label for="experience">How Would You Describe Your Experience?</label><br>
+            <br>
+            <div class="experienceBtn">
+                <input list="experience" name="experience" placeholder="Please choose your User Experience" id="experienceBox">
+                <datalist id="experience">
+                     <option value="Horrendous"></option>
+                     <option value="Sub Par"></option>
+                     <option value="Mediocre"></option>
+                     <option value="Slighly enjoyed"></option>
+                     <option value="Thrilled"></option>
+                     <option value="Absolutely Exquisite"></option>
+                </datalist>
+            </div>
+           <!--Data Input section-->
+            <br>
+            <label for="starRating">Please indicate your satisfaction with the website</label>
+            <br>
+            <input type="number" min="0" max="10" name="starRating" placeholder="5" id="starRating" required>
+            <br>
+            <label for="date">Date</label><br>
+            <input type="date" name="date" placeholder="mm/dd/yyyy" id="date" required>
+            <br>
+            <textarea name="messageContent" class="formInfo" placeholder="Please Tell Us More About Your Opinion" rows="4"></textarea>
+            <br>
+            <input type="submit" class="formInfo Submit" value="Submit">
+            </form>
+        </div>
+
+
+    </body>
+    
+
+
+
+</html>

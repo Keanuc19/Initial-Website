@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+/*style for the navigation bar*/
+/*beginning of navigation bar controls*/
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgba(29,33,61,05);
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+/*style for the logo class*/
+.logo
+{
+    width: 155px;
+}
+/*style for the logo image*/
+.logo img
+{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+nav
+{
+    flex: 1;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+}
+.user
+{
+   display: flex;
+   align-items: center;
+   color: #fff;
+   font-size: 14px;
+}
+.user img
+{
+    padding-left: 10px;
+    width: 30px;
+    margin: left 15px;
+    cursor: pointer;
+}
+/*end of navigation bar settings*/
+body
+{
+    background-image:url(..//images/donny-jiang-tnAfvEoGfBc-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-family: 'Orbitron', Courier, sans-serif;
+     color: orange;
+    text-shadow: orange;
+    text-rendering: optimizeLegibility;
+}
+.table-fill
+{
+    height: 80px;
+    overflow: scroll;
+}

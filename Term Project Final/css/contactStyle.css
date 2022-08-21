@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background:url(..//images/cheng-feng-J6Atq83sBho-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Orbitron', Courier, sans-serif;
+
+}
+.contactHeading
+{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition:all 4s ease-in-out;
+}
+.contactHeading h1
+{
+    font-size: 32px;
+    line-height: 10px;
+
+}
+.contactHeading h2
+{
+   font-size: 16px;
+
+}
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.formInfo
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input
+{
+    height: 45px;
+}
+
+/* colors are inspired by youtuber UrAvgConsumer*/
+form .submit
+{
+    background: turquoise;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+/*beginning of navigation bar controls*/
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgba(29,33,61,05);
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+/*style for the logo class*/
+.logo
+{
+    width: 155px;
+}
+/*style for the logo image*/
+.logo img
+{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+nav
+{
+    flex: 1;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+}
+.user
+{
+   display: flex;
+   align-items: center;
+   color: #fff;
+   font-size: 14px;
+}
+.user img
+{
+    padding-left: 10px;
+    width: 30px;
+    margin: left 15px;
+    cursor: pointer;
+}
+/*end of navigation bar settings*/

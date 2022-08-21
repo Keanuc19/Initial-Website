@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!--Need to add Meta to code!-->
+    <meta name="">
+    <title> Term Project Store Test</title>
+    <link rel="stylesheet" href="css/newsStyle.css">
+    <script type="text/javascript" src="js/"></script>
+    </head>
+    <body>
+      <!--Beginnign of Navigation Bar code-->
+      <!--Stationary Container so the image doesn't move-->
+      <div class="container">
+         <div class="navbar">
+           <div class="logo">
+             <!-- add an image here in the place of a Logo-->
+             <img src="images/ju-logo-nameplate-green.png">
+           </div>
+           <nav>
+             <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="About.html">About</a></li>
+               <li><a href="products.html">Shop</a></li>
+               <li><a id = "doubleLink" href="creator.html">Creator</a></li>
+               <li><a href="Contact.html">Contact</a></li>
+               <li><a href="news.html">News</a></li>
+             </ul>
+           </nav>
+           <div class="user">
+             <p> Keanu Chetty</p>
+             <!--Add an Image of myself-->
+             <img src="images/circle-cropped.png">
+           </div>
+         </div>
+         <!--End of Navigation bar code--> 
+         <h1>Our Favorite News From "The Verge"</h1>
+         <table id="newsTable">
+           <!--Images edited using https://cloudconvert.com/webp-to-png-->
+           <!--Images are buttons to the original news site (The Verge)-->
+           <tr>
+             <td>
+               <p>Click Below To Read More</p>
+               <input type="image" id="NewsSource1" src="images/NewsSource1.png" onclick="location.href='https://www.theverge.com/2021/4/28/22405539/revel-ride-share-nyc-tesla-model-y-moped-uber';" value="Redirect to News Source 1">
+             </td>
+             <td rowspan="3">
+              <p>Click Below To Read More</p>
+              <input type="image" id="NewsSource2" src="images/NewsSource@.gif" onclick="location.href='https://www.theverge.com/2019/2/1/18192858/adobe-sensei-celsys-clip-studio-colorize-ai-artificial-intelligence-art';" value="Redirect to News Source 2">
+             </td>
+           </tr>
+           <tr>
+              <td>
+                <p>Click Below To Read More</p>
+                <input type="image" id="NewsSource3" src="images/NewsSource3-3.png" onclick="location.href='https://www.theverge.com/2019/1/29/18200585/understand-ai-artificial-intelligence-reading-list-books-scifi';" value="Redirect to News Source 3">
+              </td>
+           </tr>
+           <tr>
+             <td>
+              <p>Click Below To Read More</p>
+              <input type="image" id="NewsSource4" src="images/NewsSource5-2.png" onclick="location.href='https://www.theverge.com/2017/11/15/16654352/ai-astronomy-space-exploration-data';" value="Redirect to News Source 4">
+             </td>
+           </tr>
+           <tr>
+             <td>
+              <p>Click Below To Read More</p>
+              <input type="image" id="NewsSource5" src="images/NewsSource6-2.png" onclick="location.href='https://www.theverge.com/2021/4/22/22397638/cyberpunk-2077-cd-projekt-red-biggest-game-ever-sales';" value="Redirect to News Source 5">
+
+             </td>
+           </tr>
+
+         </table>
